@@ -2,75 +2,89 @@
   header{
     background-color: #04AA6D;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   header .sitename{
     text-align: center;
   }
+  header .tabs{
+    display: flex; 
+    /* justify-content: space-between;  */
+ }
+ 
+.parent{
+  position: relative;
+}
 
 .button-7 {
-  background-color: #0095ff;
+  background-color: #fff;
   border: 1px solid transparent;
   border-radius: 3px;
   box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
   box-sizing: border-box;
-  color: #fff;
+  color: black ;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 1.15385;
   margin: 2px;
+  margin-bottom: 2px;
   outline: none;
-  padding: 8px .8em;
+  padding: 3px .8em;
   
   text-align: center;
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  
   white-space: nowrap;
-  
 }
 
-.button-7:hover,
+header #about {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 0;
+}
+
+ .button-7:hover,
 .button-7:focus {
   background-color: #07c;
-}
+} 
 
-.button-7:focus {
+ .button-7:focus {
   box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
-}
+} 
 
 .button-7:active {
   background-color: #0064bd;
   box-shadow: none;
 }
   
-header .tabs{
-   display: flex;
-   bottom: 0px;
- }
+
   
   
   body {
 font-family: Arial, Helvetica, sans-serif;
 } 
+p{
+  
+  text-decoration: none;
+}
   
   .mobile-container {
-  max-width: 480px;
-  margin: auto;
-  background-color: #555;
-  height: 500px;
-  color: white;
-  border-radius: 10px;
+    background-image: url('images/Burger.jpg');
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
 
 .topnav {
-  overflow: hidden;
   background-color: #333;
   position: relative;
 }
@@ -80,7 +94,7 @@ font-family: Arial, Helvetica, sans-serif;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;
+  display: block; 
 }
 
 .active {
@@ -104,3 +118,23 @@ font-family: Arial, Helvetica, sans-serif;
   color: white;
   text-align: center;
 }
+
+
+.second{
+  background-image: url('images/chanwalrus.jpg');
+  border-radius: 7px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  color: white;
+}
+
+.arrk{
+  background-image: url('images/cupCake.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  color: white;
+  border-radius: 7px;
+}
+
